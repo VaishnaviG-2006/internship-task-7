@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transaction Bill</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Company Name</h2>
+  <h3>Invoice / Bill</h3>
+
+  <div class="section">
+    <p><strong>Buyer:</strong> john aduu</p>
+    <p><strong>Address:</strong> 212 Elm Street</p>
+    <p><strong>Contact:</strong> 8566776477</p>
+    <p><strong>Email:</strong> john@example.com</p>
+  </div>
+
+  <div class="section">
+    <table id="product-table">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Unit Price ($)</th>
+          <th>Total ($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Laptop</td>
+          <td>1</td>
+          <td>750</td>
+          <td class="total-cell">750</td>
+        </tr>
+        <tr>
+          <td>Mouse</td>
+          <td>2</td>
+          <td>20</td>
+          <td class="total-cell">40</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="summary">
+    <p><strong>Subtotal:</strong> $<span id="subtotal">0</span></p>
+    <p><strong>Total Amount Due:</strong> $<span id="total">0</span></p>
+  </div>
+
+  <div class="footer">
+    <p><strong>Transaction ID:</strong> TXN001</p>
+    <p><strong>Date:</strong> 2025-04-13</p>
+    <p><strong>Payment Method:</strong> Card</p>
+  </div>
+
+  <div class="btns">
+    <button class="btn" onclick="window.print()">🖨️ Print</button>
+    <button class="btn" onclick="downloadPDF()">⬇️ Download PDF</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
