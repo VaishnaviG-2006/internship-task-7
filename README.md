@@ -15,9 +15,9 @@ This project is a simple, printable invoice/bill generator built using HTML, CSS
 
 # 📂 Project Structure
 
-- project/
-- │
-- ├── index.html       # Main HTML file (Invoice layout)
-- ├── styles.css       # Styling for the invoice
-- ├── scripts.js       # Logic to calculate totals and generate PDF
-- └── README.md        # Project overview and usage instructions
+project/<br>
+│<br>
+├── index.html       # Main HTML file (Invoice layout)<br>
+├── styles.css       # Styling for the invoice<br>
+├── scripts.js       # Logic to calculate totals and generate PDF<br>
+└── README.md        # Project overview and usage instructions<br>
